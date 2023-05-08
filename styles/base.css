@@ -1,0 +1,153 @@
+
+.header {
+    padding: 3rem 2rem;
+    background: rgb(27, 130, 148);
+    background: linear-gradient(90deg, rgb(18, 151, 151) 0%, rgb(135, 203, 230) 29%, rgba(33, 39, 60, 1) 100%);
+
+    .contents {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        margin: auto;
+
+        .profile_picture {
+            border-radius: 0.8rem;
+        }
+
+        .name {
+            margin-left: 3.2rem;
+            color: #f9f9f9;
+        }
+    }
+}
+
+.nav {
+    background: rgb(9, 75, 105);
+
+    .contents {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+
+        .item {
+            padding: 1.6rem 2rem;
+            width: 100%;
+        }
+
+        .page_link {
+            display: block;
+            font-weight: 500;
+            font-size: 1.8rem;
+            text-align: center;
+            margin: auto;
+            color: #f9f9f9;
+            text-decoration: none;
+            transition: color 300ms;
+
+            &.active,
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+.s-home {
+    padding: 0 2rem 3.2rem;
+
+    .course_title {
+        margin: 4rem 0;
+    }
+
+    .card {
+        border: 0.2rem solid rgb(15, 104, 85);
+
+        .text_contents {
+            padding-right: 2rem;
+        }
+
+        .title {
+            padding: 1.6rem;
+            margin: 0;
+            color: white;
+            background: rgba(35, 73, 87, 1);
+            background: linear-gradient(27deg, rgba(35, 73, 87, 1) 0%, rgba(18, 73, 93, 1) 100%);
+        }
+
+        &.learning_activites {
+            .list {
+                list-style-type: none;
+                padding-left: 3rem;
+
+                .item {
+                    font-weight: 500;
+
+                    &:not(:last-child) {
+                        margin-bottom: 1.6rem;
+                    }
+
+                    .sub_text {
+                        display: block;
+                        margin-bottom: 0.4rem;
+                    }
+
+                    .sub_link {
+                        color: rgb(62, 131, 233);
+                        text-decoration: none;
+
+                        &:not([href]) {
+                            font-size: 1.2rem;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.information {
+            margin-top: 2rem;
+
+            .text_contents {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 3rem;
+
+                .text {
+                    font-weight: 500;
+                }
+
+                .weather {
+                    display: flex;
+                    align-items: center;
+
+                    .weather_icon {
+                        margin-right: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background: rgb(15, 15, 15);
+    color: #f9f9f9;
+    padding: 3.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .text {
+        margin: 0;
+    }
+
+    .copyright {
+        font-weight: 600;
+    }
+
+    .last_modified {
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+    }
+}

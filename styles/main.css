@@ -53,6 +53,11 @@
     color: white;
 }
 
+
+ img {
+ min-width: 100%;
+}
+
 .s-home {
     padding: 0 2rem 3.2rem;
 }
@@ -129,6 +134,15 @@
     margin-right: 0.8rem;
 }
 
+
+iframe{
+    width: 60%;
+    height: 200px;
+    align-items: center;
+        
+} 
+
+
 .footer {
     background: #056860;
     color: #d1d1d1;
@@ -150,6 +164,7 @@
     font-size: 1.2rem;
     margin-top: 0.8rem;
 }
+
 
 @media only screen and (min-width: 744px) {
     .nav .contents {

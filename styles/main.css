@@ -138,8 +138,8 @@
 iframe{
     width: 60%;
     height: 200px;
-    align-items: center;
-        
+    margin: 10px auto;
+    /* text-align: center; */
 } 
 
 

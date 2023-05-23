@@ -286,6 +286,7 @@ main div.weather h2 {
 iframe{
     width: 90%;
     height: 200px;
+    margin: 0 auto;
 }
 .base-footer {
     text-align: center;

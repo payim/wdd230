@@ -136,9 +136,9 @@
 
 
 iframe{
-    width: 60%;
+    width: 100%;
     height: 200px;
-    margin: 10px auto;
+    margin: 40px auto;
     /* text-align: center; */
 } 
 

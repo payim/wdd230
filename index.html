@@ -22,7 +22,7 @@
     <header class="header">
         <div class="contents">
             <img class="profile_picture" src="images/my pic.webp"
-                alt="Profile" width="0" height="190">
+                alt="Profile" width="0" height="180">
             <h1 class="name">Charles Ayim</h1>
         </div>
     </header>
@@ -30,17 +30,22 @@
     <a id="menu" href="#"></a>
     <nav class="nav">  
         <ul class="contents">
-            <li class="item"><a class="page_link active" href="/">Home</a></li>
+            <li class="item"><a class="page_link active" href="index.html">Home</a></li>
             <li class="item"><a class="page_link" href="https://payim.github.io/wdd230/chamber">Chamber</a></li>
             <li class="item"><a class="page_link" href="https://payim.github.io/wdd230/lesson1/chamber-site-plan.html">Site Plan</a></li>
             <li class="item"><a class="page_link" href="#">Survey</a></li>
         </ul>
     </nav>
+
+   
     <picture class="hero-img">
-        <source media="(min-width: 400px)" srcset="images/accra_ghana_temple_lds.webp">
-        <source media="(min-width: 960px)" srcset="images/accra_ghana_temple_lds.webp">
-        <img src="/images/accra_ghana_temple_lds.webp" alt="hero-image" height="800" width="100">
+        <picture>
+        <source media="(min-width: 960px)" srcset="images/Ghana Temple 1.0.webp" width="960" height="600">
+        <source media="(min-width: 400px)" srcset="images/Ghana Temple 1.0.webp" width="430" height="300">
+        <img src="images/Ghana Temple 1.0.webp" alt="hero-image"  width="960" height="600">
     </picture>
+    
+
 
     <div id="mode">
         ☑️
@@ -100,11 +105,11 @@
             <div class="text_contents">
                 <p class="text location">Accra, Ghana</p>
                 <div class="weather">
-                    <img class="weather_icon" src="images/cloud.svg" alt="" width="25"
-                        height="25">
+                    <img class="weather_icon" src="images/cloud 1.svg" alt="weather icon" width="40"
+                        height="40">
                     <span class="text weather_text">26°C, Cloudy</span>
                 </div>
-                <p class="text visit_count"></p>
+                <p class="text visit_count">Page Visits: <span id="visit_count">70</span></p>
             </div>
         </section>
         <iframe
@@ -117,6 +122,7 @@
         <p class="text copyright">©<span id="year_container">2023</span> - Charles Ayim | Accra- Ghana</p>
         <p class="text last_modified" id="lastModified">Last Modification: 04/22/2023 06:45:30</p>
     </footer>
+    <script src="scripts/main.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgermenu.js"></script>
     <script src="scripts/darkmode.js"></script>

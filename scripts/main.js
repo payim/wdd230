@@ -21,7 +21,7 @@ let totalVisits = Number(window.localStorage.getItem("totalVisits")) || 0;
 if (totalVisits !== 0) {
     visitsCounter.textContent = totalVisits;
 } else {
-    visitsCounter.textContent = `You're the first! 🥳 Welcome!`;
+    visitsCounter.textContent = `Hey guess what?! 🥳 you are the first to be here!`;
 }
 
 totalVisits++;

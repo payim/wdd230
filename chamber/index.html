@@ -91,7 +91,7 @@
             <h3>Ghana Music Award</h3>
             <h4>Fwp Propose prescribed fire at lone pine state park to benefit navtive habitat </h4>
             This is an excellent company! I personally enjoyed the energy and the professional support the whole team gave to us
-            into creating website. <br>
+            into creating website.
             Their team are easy to work with and helped me make amazing websites 
             in a short amount of time. Thanks again guys for
             all your hard work.
@@ -99,20 +99,22 @@
             
         </div>
 
-        
         <div class="weather">
-            <h2>Current Weather</h2>
-            <div class="weather-info">
-                <h3>Accra-Ghana</h3>
-            <img src="https://openweathermap.org/img/w/02n.png" alt="Few Clouds" id="weather-icon" loading="lazy">
-                <h3><span id="current-temp">26</span>°C</h3>
-            </div>
-            <h3><span id="description">Few Clouds</span></h3>
-            <hr>
-            <p>current wind speed is <span id="speed">2.86</span> mph</p>
-            <p>wind child is<span id="chill">N/A</span></p>
-            <p class="weather-link">Data provided by: <a href="#"></a></p>
-        </div>
+            <h2><span id="place">city</span></h2>
+            <div id="icon-temp">
+            <figure>
+              <img id="weather_icon" src="images/placeholder.png" alt="current weather">
+              <figcaption></figcaption>
+            </figure>
+            <span id="full-temp"><span id="temp"></span>&deg;</span>
+          </div>
+            <p class="first-p">Speed: <span id="speed">00</span>mph</p>
+            <p class="last-p">Wind Chill: <span id="chill">N/A</span></p>
+            <p class="disclaimer">Weather information kindly offered by <a href="https://openweathermap.org">Openweathermap.org</a></p>
+           </div>
+        
+       
+       
 
         <div class="join">
             <div class="gold-members">
@@ -234,8 +236,9 @@
 
     <script src="scripts/script.js"></script>
     <script src="scripts/spolights.js"></script>
-    <script src="scripts/windChill.js"></script>
-
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/days.js"></script>
 </body>
 
 </html>
